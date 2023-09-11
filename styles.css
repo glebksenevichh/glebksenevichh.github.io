@@ -1,0 +1,81 @@
+/*--text: #f6f7fe;
+--background: #05091f;
+--primary: #b31e30;
+--secondary: #050a23;
+--accent: #d85e13;*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #05091F;
+    color: #F6F7FE;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navOption {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-large;
+}
+
+a:hover {
+    color: #d85e13;
+}
+
+.header {
+    background-color: #050a23;
+    padding: 2rem 1rem;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 70%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #d85e13;
+
+}
+
+.about {
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-top: 0;
+    width: 70%;
+    max-height: 80px;
+}
+
+.socials {
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
+#linkedin {
+    height: 38px;
+    width: 38px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: auto;
+}
+
+#carousel {
+    margin:auto;
+    margin-top: 10px;
+    width: 50%;
+}
